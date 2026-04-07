@@ -33,7 +33,7 @@ int main ()
 
     cout << "Data tampil" << endl;
     cout << "Nama : " << mhs.nama << endl;
-    cout << "alamat : " << mhs.alamat.desa << endl;
-    cout << "alamat : " << mhs.alamat.kota << endl;
+    cout << "Desa : " << mhs.alamat.desa << endl;
+    cout << "Kota : " << mhs.alamat.kota << endl;
     cout << "umur : " << mhs.umur << endl;
 }
