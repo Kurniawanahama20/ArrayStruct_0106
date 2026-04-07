@@ -40,5 +40,16 @@ int main()
     for (int i = 0; i <= 4; i++)
     {
         cout << "Isikan data ke-" << (i + 1) << " : ";
+        cin >> datamu [i];
     }
+    cout << endl;
+
+    cout << "Tampil Data Array Menggunakan For" << endl;
+    //Menampilkan data dengan perulangan
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "Isikan data ke-" << (i + 1) << " : " << datamu [i] << endl;
+        cin >> datamu [i];
+    }
+    cout << endl;
 }
