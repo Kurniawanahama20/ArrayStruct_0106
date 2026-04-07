@@ -19,6 +19,8 @@ int main()
     cin >> datamu [0];
     cout << "isikan data kedua : ";
     cin >> datamu [1];
-    cout
+    cout << "Isikan data ketiga : ";
+    cin >> datamu[2];
+
 
 }
